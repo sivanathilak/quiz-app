@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="quiz-container">
+
+        <h1>Quiz App</h1>
+
+        <!-- Start Screen -->
+        <div id="start-screen">
+
+            <h2>Test Your Knowledge!</h2>
+
+            <p>
+                Answer the questions before the timer runs out.
+            </p>
+
+            <button id="start-btn">
+                Start Quiz
+            </button>
+
+        </div>
+
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="hidden">
+
+            <!-- Quiz Information -->
+            <div class="quiz-info">
+
+                <p>
+                    Question:
+                    <span id="question-number">1</span>
+                </p>
+
+                <p>
+                    Score:
+                    <span id="score">0</span>
+                </p>
+
+                <p>
+                    Time:
+                    <span id="timer">15</span>
+                </p>
+
+            </div>
+
+
+            <!-- Question -->
+            <div class="question-container">
+
+                <h2 id="question">
+                    Question will appear here
+                </h2>
+
+            </div>
+
+
+            <!-- Answer Buttons -->
+            <div id="answer-buttons">
+
+                <button class="answer-btn">
+                    Answer 1
+                </button>
+
+                <button class="answer-btn">
+                    Answer 2
+                </button>
+
+                <button class="answer-btn">
+                    Answer 3
+                </button>
+
+                <button class="answer-btn">
+                    Answer 4
+                </button>
+
+            </div>
+
+
+            <!-- Next Button -->
+            <button id="next-btn" class="hidden">
+                Next Question
+            </button>
+
+        </div>
+
+
+        <!-- Results Screen -->
+        <div id="result-screen" class="hidden">
+
+            <h2>Quiz Complete!</h2>
+
+            <p>
+                Your Score:
+                <span id="final-score">0</span>
+            </p>
+
+            <p id="result-message"></p>
+
+            <button id="restart-btn">
+                Restart Quiz
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
