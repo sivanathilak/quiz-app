@@ -39,8 +39,8 @@ While building this project, I practiced:
 
 ## Screenshot
 
-Screenshot coming soon.
+![Quiz App Screenshot](quiz-app-screenshot.png)
 
 ## Live Demo
 
-Live demo coming soon.
+[View the Live Quiz App](https://sivanathilak.github.io/quiz-app/)
